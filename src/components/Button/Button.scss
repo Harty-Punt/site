@@ -1,0 +1,17 @@
+@import '../../shared.scss';
+
+a.btn-primary {
+  padding: 0.5rem 2.5rem;
+  background-color: $primary-color;
+  color: $secondary-color;
+  border: none;
+  border-radius: 1.5rem;
+  margin: 1rem 0rem;
+  text-decoration: none;
+  font-family: $primary-font;
+  transition: 0.3s all;
+  &:hover {
+    border: 1px solid $secondary-color;
+    background-color: transparent;
+  }
+}
