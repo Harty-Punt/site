@@ -1,0 +1,13 @@
+@import "/components/Header/Header.scss";
+@import "App.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}

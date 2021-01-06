@@ -1,0 +1,28 @@
+@import "../../shared.scss";
+
+nav.navbar-default {
+  width: 100%;
+  background-color: $tertiary-color;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  ul {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    li {
+      margin-right: 1.5rem;
+      a {
+        font-size: 1rem;
+        color: $secondary-color;
+        font-family: $primary-font;
+        text-decoration: none;
+        transition: color 0.3s;
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
